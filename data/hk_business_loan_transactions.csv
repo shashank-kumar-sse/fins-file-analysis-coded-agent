@@ -1,0 +1,73 @@
+TransactionID,AccountID,TransactionDate,ValueDate,Description,Counterparty,DebitHKD,CreditHKD,RunningBalanceHKD,Currency,TransactionType,Category,Channel,PaymentRail,RecurringFlag,Status
+TXHK00001,HK-BIZ-001,2026-01-02,2026-01-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,136800.00,316800.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00002,HK-BIZ-001,2026-01-09,2026-01-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,115200.00,432000.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00003,HK-BIZ-001,2026-01-18,2026-01-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,108000.00,540000.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00004,HK-BIZ-001,2026-01-04,2026-01-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,41760.00,0.00,498240.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00005,HK-BIZ-001,2026-01-16,2026-01-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,30240.00,0.00,468000.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00006,HK-BIZ-001,2026-01-07,2026-01-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,400000.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00007,HK-BIZ-001,2026-01-08,2026-01-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,392860.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00008,HK-BIZ-001,2026-01-10,2026-01-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,364860.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00009,HK-BIZ-001,2026-01-12,2026-01-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,358360.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00010,HK-BIZ-001,2026-01-20,2026-01-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,339860.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00011,HK-BIZ-001,2026-01-24,2026-01-24,FPS Transfer - Director withdrawal,Company director,22000.00,0.00,317860.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00012,HK-BIZ-001,2026-02-02,2026-02-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,155800.00,473660.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00013,HK-BIZ-001,2026-02-09,2026-02-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,131200.00,604860.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00014,HK-BIZ-001,2026-02-18,2026-02-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,123000.00,727860.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00015,HK-BIZ-001,2026-02-04,2026-02-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,49300.00,0.00,678560.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00016,HK-BIZ-001,2026-02-16,2026-02-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,35700.00,0.00,642860.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00017,HK-BIZ-001,2026-02-07,2026-02-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,574860.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00018,HK-BIZ-001,2026-02-08,2026-02-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,567720.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00019,HK-BIZ-001,2026-02-10,2026-02-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,539720.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00020,HK-BIZ-001,2026-02-12,2026-02-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,533220.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00021,HK-BIZ-001,2026-02-20,2026-02-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,514720.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00022,HK-BIZ-001,2026-02-24,2026-02-24,FPS Transfer - Director withdrawal,Company director,18000.00,0.00,496720.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00023,HK-BIZ-001,2026-03-02,2026-03-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,150100.00,646820.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00024,HK-BIZ-001,2026-03-09,2026-03-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,126400.00,773220.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00025,HK-BIZ-001,2026-03-18,2026-03-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,118500.00,891720.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00026,HK-BIZ-001,2026-03-04,2026-03-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,46400.00,0.00,845320.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00027,HK-BIZ-001,2026-03-16,2026-03-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,33600.00,0.00,811720.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00028,HK-BIZ-001,2026-03-07,2026-03-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,743720.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00029,HK-BIZ-001,2026-03-08,2026-03-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,736580.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00030,HK-BIZ-001,2026-03-10,2026-03-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,708580.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00031,HK-BIZ-001,2026-03-12,2026-03-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,702080.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00032,HK-BIZ-001,2026-03-20,2026-03-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,683580.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00033,HK-BIZ-001,2026-03-24,2026-03-24,FPS Transfer - Director withdrawal,Company director,22000.00,0.00,661580.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00034,HK-BIZ-001,2026-03-26,2026-03-26,IRD Profits Tax payment,Inland Revenue Department,42000.00,0.00,619580.00,HKD,Debit,Taxes,Online banking,Autopay,No,Completed
+TXHK00035,HK-BIZ-001,2026-04-02,2026-04-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,171000.00,790580.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00036,HK-BIZ-001,2026-04-09,2026-04-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,144000.00,934580.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00037,HK-BIZ-001,2026-04-18,2026-04-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,135000.00,1069580.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00038,HK-BIZ-001,2026-04-04,2026-04-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,53360.00,0.00,1016220.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00039,HK-BIZ-001,2026-04-16,2026-04-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,38640.00,0.00,977580.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00040,HK-BIZ-001,2026-04-07,2026-04-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,909580.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00041,HK-BIZ-001,2026-04-08,2026-04-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,902440.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00042,HK-BIZ-001,2026-04-10,2026-04-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,874440.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00043,HK-BIZ-001,2026-04-12,2026-04-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,867940.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00044,HK-BIZ-001,2026-04-20,2026-04-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,849440.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00045,HK-BIZ-001,2026-04-24,2026-04-24,FPS Transfer - Director withdrawal,Company director,18000.00,0.00,831440.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00046,HK-BIZ-001,2026-05-02,2026-05-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,163400.00,994840.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00047,HK-BIZ-001,2026-05-09,2026-05-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,137600.00,1132440.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00048,HK-BIZ-001,2026-05-18,2026-05-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,129000.00,1261440.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00049,HK-BIZ-001,2026-05-04,2026-05-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,51040.00,0.00,1210400.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00050,HK-BIZ-001,2026-05-16,2026-05-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,36960.00,0.00,1173440.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00051,HK-BIZ-001,2026-05-07,2026-05-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,1105440.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00052,HK-BIZ-001,2026-05-08,2026-05-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,1098300.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00053,HK-BIZ-001,2026-05-10,2026-05-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,1070300.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00054,HK-BIZ-001,2026-05-12,2026-05-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,1063800.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00055,HK-BIZ-001,2026-05-20,2026-05-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,1045300.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00056,HK-BIZ-001,2026-05-24,2026-05-24,FPS Transfer - Director withdrawal,Company director,22000.00,0.00,1023300.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00057,HK-BIZ-001,2026-06-02,2026-06-02,FPS Credit - Customer settlement,Harbour Retail Limited,0.00,178600.00,1201900.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00058,HK-BIZ-001,2026-06-09,2026-06-09,FPS Credit - Customer settlement,Pacific E-commerce Limited,0.00,150400.00,1352300.00,HKD,Credit,Customer receipts,Online banking,FPS,No,Completed
+TXHK00059,HK-BIZ-001,2026-06-18,2026-06-18,CHATS Credit - Trade receivable,ABC Distribution Limited,0.00,141000.00,1493300.00,HKD,Credit,Customer receipts,Online banking,CHATS,No,Completed
+TXHK00060,HK-BIZ-001,2026-06-04,2026-06-04,CHATS Transfer - Inventory purchase,Shenzhen Components Co. Ltd,55100.00,0.00,1438200.00,HKD,Debit,Supplier payments,Online banking,CHATS,No,Completed
+TXHK00061,HK-BIZ-001,2026-06-16,2026-06-16,FPS Transfer - Packaging and supplies,Kowloon Packaging Limited,39900.00,0.00,1398300.00,HKD,Debit,Supplier payments,Online banking,FPS,No,Completed
+TXHK00062,HK-BIZ-001,2026-06-07,2026-06-07,Autopay - Monthly payroll,Payroll clearing account,68000.00,0.00,1330300.00,HKD,Debit,Payroll,Autopay,Autopay,Yes,Completed
+TXHK00063,HK-BIZ-001,2026-06-08,2026-06-08,MPF contribution - Employer and employee,MPF Trustee,7140.00,0.00,1323160.00,HKD,Debit,MPF contribution,Autopay,Autopay,Yes,Completed
+TXHK00064,HK-BIZ-001,2026-06-10,2026-06-10,Autopay - Office rent,Central Hong Kong Properties,28000.00,0.00,1295160.00,HKD,Debit,Rent,Autopay,Autopay,Yes,Completed
+TXHK00065,HK-BIZ-001,2026-06-12,2026-06-12,Autopay - Electricity and telecommunications,CLP Power / HKT,6500.00,0.00,1288660.00,HKD,Debit,Utilities,Autopay,Autopay,Yes,Completed
+TXHK00066,HK-BIZ-001,2026-06-20,2026-06-20,Business loan installment,Hong Kong Commercial Bank,18500.00,0.00,1270160.00,HKD,Debit,Existing loan repayment,Autopay,Autopay,Yes,Completed
+TXHK00067,HK-BIZ-001,2026-06-24,2026-06-24,FPS Transfer - Director withdrawal,Company director,18000.00,0.00,1252160.00,HKD,Debit,Owner withdrawal,Online banking,FPS,No,Completed
+TXHK00068,HK-BIZ-001,2026-06-26,2026-06-26,IRD Profits Tax payment,Inland Revenue Department,48000.00,0.00,1204160.00,HKD,Debit,Taxes,Online banking,Autopay,No,Completed
+TXHK00069,HK-BIZ-001,2026-02-21,2026-02-21,Cheque returned unpaid - customer settlement,Harbour Retail Limited,15000.00,0.00,1189160.00,HKD,Debit,Returned payment,Cheque,Cheque,No,Returned
+TXHK00070,HK-BIZ-001,2026-02-22,2026-02-22,Reversal of returned cheque fee,Harbour Retail Limited,0.00,15000.00,1204160.00,HKD,Credit,Returned payment reversal,Cheque,Cheque,No,Reversed
+TXHK00071,HK-BIZ-001,2026-04-28,2026-04-28,Bank service charge,Hong Kong Commercial Bank,850.00,0.00,1203310.00,HKD,Debit,Bank charges,Bank system,Fee,No,Completed
+TXHK00072,HK-BIZ-001,2026-06-29,2026-06-29,Cash withdrawal for petty cash,Business account holder,12000.00,0.00,1191310.00,HKD,Debit,Cash withdrawal,ATM,ATM,No,Completed

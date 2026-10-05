@@ -1,0 +1,12 @@
+[project]
+name = "fins-file-analysis-coded-agent"
+version = "0.0.2"
+description = "fins-file-analysis-coded-agent"
+authors = [{ name = "Shashank Kumar", email = "shashank.kumar@uipath.com" }]
+dependencies = [
+    "uipath-langchain>=0.0.106",
+    "langchain-anthropic>=0.3.8",
+    "uipath-platform>=0.2.19,<1.0.0",
+    "pypdf>=6.1.1",
+]
+requires-python = ">=3.11"

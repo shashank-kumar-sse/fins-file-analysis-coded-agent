@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Agent",
+  "Name": "fins-file-analysis-coded-agent",
+  "Description": "fins-file-analysis-coded-agent",
+  "MainFile": null
+}

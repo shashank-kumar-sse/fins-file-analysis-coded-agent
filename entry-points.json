@@ -1,0 +1,188 @@
+{
+    "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+    "$id": "entry-points.json",
+    "entryPoints": [
+        {
+            "filePath": "agent",
+            "uniqueId": "f6172b02-41ad-4aab-8b02-e5044cc67c11",
+            "type": "agent",
+            "input": {
+                "type": "object",
+                "properties": {
+                    "pdf_file": {
+                        "$ref": "#/definitions/job-attachment"
+                    }
+                },
+                "required": [
+                    "pdf_file"
+                ],
+                "definitions": {
+                    "job-attachment": {
+                        "type": "object",
+                        "required": [
+                            "ID"
+                        ],
+                        "x-uipath-resource-kind": "JobAttachment",
+                        "properties": {
+                            "ID": {
+                                "type": "string"
+                            },
+                            "FullName": {
+                                "type": "string"
+                            },
+                            "MimeType": {
+                                "type": "string"
+                            },
+                            "Metadata": {
+                                "type": "object",
+                                "additionalProperties": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "output": {
+                "type": "object",
+                "properties": {
+                    "report": {
+                        "title": "Report",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "report"
+                ]
+            },
+            "graph": {
+                "nodes": [
+                    {
+                        "id": "__start__",
+                        "name": "__start__",
+                        "type": "__start__",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "generate_report",
+                        "name": "generate_report",
+                        "type": "node",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "output",
+                        "name": "output",
+                        "type": "node",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "__end__",
+                        "name": "__end__",
+                        "type": "__end__",
+                        "subgraph": null,
+                        "metadata": {}
+                    }
+                ],
+                "edges": [
+                    {
+                        "source": "__start__",
+                        "target": "generate_report",
+                        "label": null
+                    },
+                    {
+                        "source": "generate_report",
+                        "target": "output",
+                        "label": null
+                    },
+                    {
+                        "source": "output",
+                        "target": "__end__",
+                        "label": null
+                    }
+                ]
+            }
+        },
+        {
+            "filePath": "agent_local",
+            "uniqueId": "3029e60e-43b8-4c88-b4cf-c0294fea0f19",
+            "type": "agent",
+            "input": {
+                "type": "object",
+                "properties": {
+                    "pdf_path": {
+                        "description": "Local path to the PDF to analyze",
+                        "title": "PDF Path",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "pdf_path"
+                ]
+            },
+            "output": {
+                "type": "object",
+                "properties": {
+                    "report": {
+                        "title": "Report",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "report"
+                ]
+            },
+            "graph": {
+                "nodes": [
+                    {
+                        "id": "__start__",
+                        "name": "__start__",
+                        "type": "__start__",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "generate_report",
+                        "name": "generate_report",
+                        "type": "node",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "output",
+                        "name": "output",
+                        "type": "node",
+                        "subgraph": null,
+                        "metadata": {}
+                    },
+                    {
+                        "id": "__end__",
+                        "name": "__end__",
+                        "type": "__end__",
+                        "subgraph": null,
+                        "metadata": {}
+                    }
+                ],
+                "edges": [
+                    {
+                        "source": "__start__",
+                        "target": "generate_report",
+                        "label": null
+                    },
+                    {
+                        "source": "generate_report",
+                        "target": "output",
+                        "label": null
+                    },
+                    {
+                        "source": "output",
+                        "target": "__end__",
+                        "label": null
+                    }
+                ]
+            }
+        }
+    ]
+}
